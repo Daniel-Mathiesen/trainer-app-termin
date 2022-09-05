@@ -1,7 +1,10 @@
 # Tech stack:
 
-- React
-- Tailwind css
+## React
+* React-router-dom
+* React Icons
+* SwiperJS
+## Tailwind css
 
 
 
