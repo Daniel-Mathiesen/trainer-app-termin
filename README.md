@@ -4,7 +4,7 @@
 * React-router-dom
 * React Icons
 * SwiperJS
-## Tailwind css
+* Tailwind css
 
 
 
