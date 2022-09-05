@@ -5,6 +5,7 @@
 * React Icons
 * SwiperJS
 * Tailwind css
+* Axios
 
 
 
