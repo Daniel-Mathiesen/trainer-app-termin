@@ -1,28 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// Pages
+import WelcomePage from './pages/Welcome';
+import HomePage from './pages/Home';
+import SearchPage from "./pages/Search";
+import Schedule from "./pages/Schedule";
+import DetailPage from "./pages/Details";
+import Login from "./pages/Login";
 
 function App() {
 
-  fetch("http://localhost:4000/api/v1/classes")
-  .then((response) => response.json())
-  .then((data) => console.log(data));
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<WelcomePage />} />
+          <Route exact path="/home" element={<HomePage />} />
+          <Route exact path="/search" element={<SearchPage />} />
+          <Route exact path="/schedule" element={<Schedule />} />
+          <Route exact path="/details/:classId" element={<DetailPage />} />
+          <Route exact path="/login" element={<Login />} />
+        </Routes>
+    </Router>
     </div>
   );
 }
