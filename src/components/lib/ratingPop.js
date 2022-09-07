@@ -1,4 +1,5 @@
 import React from "react";
+import RatingPopStyle from './ratingPop.css'
 
 function RatingPopUp(props){
     return(props.trigger) ? (
