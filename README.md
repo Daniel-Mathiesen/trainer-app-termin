@@ -2,85 +2,123 @@
 
 ## React
 * React-router-dom
+* React hook forms
 * React Icons
 * SwiperJS
 * Tailwind css
 * Axios
+* Yup
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+![alt text](https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png)
+
+<br>
+<br>
+
+
+Jeg har valgt at bruge React, fordi det er det framework jeg selv er bedst bekendt med. 
+React har også en masse smarte funktioner der gør opgaver meget nemmere. 
+React er meget fleksibelt fordi man kan bruge ting some components til automatisk at gentage tidligere skrevet kode
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017027543397826610/unknown.png)
+
+eller mappe data ind i et component til at klone det med forskelligt indhold.
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017027105063702578/unknown.png)
+
+React har også nogen extensions som gør det super nemt at komme hurtigt mellem sider, det hedder routes.
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017028060215779358/unknown.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![alt text](https://svgarchive.com/wp-content/uploads/tailwind-css.svg)
+
+<br>
+<br>
+
+React bliver også et endnu stærkere værktøj når det er blandet med Tailwind css
+
+Tailwind er et css libary der gør det rigtig nemt at style elementer via classes.
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017029383011184750/unknown.png)
+
+Tailwind giver muligheden for at style et UI på ingen tid, og kan næsten det samme som vanila css.
+Med Tailwind er det også meget nemt at tilføje responsive design, darkmode eller genbruge din styles.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+![alt text](https://www.drupal.org/files/project-images/logo_106.png)
+
+<br>
+<br>
+
+SwiperJS er nok den bedste package til mobile sliders.
+Det er super nemt at bruge SwiperJS og det virker sådan set på alle mobil størrelser.
+SwiperJS virker også på rigtig mange forskellige frameworks.
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017031771751202846/unknown.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+![alt text](https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png)
+
+<br>
+<br>
+
+Axios er en fetching package til at hente api data.
+Jeg synes selv Axios er nemmere at arbejde med frem for fetch, når det kommer til at hente api data.
+Axios eller fetch er en smagssag og jeg synes Axios er bedst.
+
+![alt text](https://media.discordapp.net/attachments/560102203608793088/1017034486485098546/unknown.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+![alt text]( https://miro.medium.com/max/1200/1*4Apu-JRlee0VEJbQDplgPg.png)
+
+<br>
+<br>
+
+YUP er det bedste tool jeg kender til at validere forms.
+Det er super nemt at sætte op og det kræver ikke meget baggrunds viden.
+Med YUP kan man lave validering på minutter
 
 
 
+# Scaling af appen
 
+Belive Fitness har mange måder det kan skaleres på.
 
+Jeg synes man skal kunne finde andre folks profiler, hvor man kan se deres aktiviter, klasser de tager, personlige opdateringer og feedback.
 
+Købte medlemskaber ville også være en god indkomst til Belive Fitness.
+Det kan fx. give adgang til premium klasser, ad free experience, personlige træner og nogen kure.
 
+Træner profiler ville også være en god ting, så folk der ønsker at træner andre kan lave træner profiler.
+Træner profiler kan fx. oprette klasser, og hjælpe appen med feedback
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
