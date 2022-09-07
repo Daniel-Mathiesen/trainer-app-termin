@@ -1,0 +1,20 @@
+.popup{
+   position: absolute;
+   width: 100%;
+   transform: translateX(calc(50vw - (374px / 2)));
+   height: 100%;
+}
+
+.popupInner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+}
+
+.popupInner{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
