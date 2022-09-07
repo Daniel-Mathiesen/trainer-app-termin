@@ -122,3 +122,8 @@ Det kan fx. give adgang til premium klasser, ad free experience, personlige træ
 Træner profiler ville også være en god ting, så folk der ønsker at træner andre kan lave træner profiler.
 Træner profiler kan fx. oprette klasser, og hjælpe appen med feedback
 
+# Ekstra opgave
+
+Netlify auto build
+
+https://master--fancy-banoffee-ccbfc6.netlify.app/
